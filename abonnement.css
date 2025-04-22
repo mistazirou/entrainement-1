@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #4c3b84;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.plan-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+}
+
+.plan-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card h2 {
+  font-size: 1.8rem;
+  color: #4c3b84;
+  margin-bottom: 0.5rem;
+}
+
+.plan-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.plan-card ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.plan-card ul li::before { 
+  content: "✔";
+  color: #4c3b84;
+  position: absolute;
+  left: 0;
+}
+
+.plan-card button {
+  background-color: #4c3b84;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plan-card button:hover {
+  background-color: #372a63;
+}
+
+.plan-card.pro {
+  max-width: 420px;
+  transform: scale(1.05);
+  border: 2px solid #4c3b84;
+  z-index: 1;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.h1 {
+  text-align: center;
+
+}
+
+.pourquoi
