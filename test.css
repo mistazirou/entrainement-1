@@ -80,6 +80,7 @@ main {
   text-align: center;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
 }
 
 main section {
@@ -92,6 +93,18 @@ main section {
   align-items: center;
   height: 52vh;
   flex-direction: column;
+  text-align: center;
+  background-image: url("img/layered-waves-haikei.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -338,17 +351,6 @@ footer {
   background-color: #bfaaff;
 }
 
-.principal {
-  background-image: url("img/layered-waves-haikei.svg");
-  background-size: cover;
-
-  min-height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .cta button a {
   color: white;
   text-decoration: none;
