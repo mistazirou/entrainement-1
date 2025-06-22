@@ -175,11 +175,10 @@ main section h1 {
 }
 
 .cta {
-  padding: 10.2rem;
+  padding: 4rem 2rem;
   text-align: center;
   background-color: #000000;
   background-size: cover;
-  background: url(img/footerimg.png);
 }
 
 .cta h2 {
@@ -351,11 +350,28 @@ a:hover{
 
 footer {
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
   background: rgb(255, 255, 255);
   color: #5a50a2;
 }
 
+@media (max-width: 709px) {
+  nav ul { flex-direction: column; }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .why-item-2 {
+    background-color: #beccff;
+    height: auto;
+    width: 90%;
+    border-radius: 81px 0;
+}
+
+
+}
 
 @media (max-width: 600px) {
   nav ul { flex-direction: column; }
