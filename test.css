@@ -122,6 +122,7 @@ main section h1 {
 
 .lorem {
   font-size: 21px;
+  margin-top: 0px;
 }
 
 .features {
@@ -175,7 +176,7 @@ main section h1 {
 }
 
 .cta {
-  padding: 4rem 2rem;
+  padding: 7rem 2rem;
   text-align: center;
   background-color: #000000;
   background-size: cover;
@@ -355,6 +356,32 @@ footer {
   color: #5a50a2;
 }
 
+@media (max-width: 1000px) {
+  nav ul { flex-direction: column; }
+
+  main section h1 {
+    font-size: 3em;
+
+}
+
+main hr {
+  width: 70%;
+  border: 1px solid #ffffff;
+  margin-top: 42px;
+}
+
+.lorem {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-top: -132px;
+  padding: 5rem;
+
+}
+
+
+}
+
+
 @media (max-width: 709px) {
   nav ul { flex-direction: column; }
 
@@ -390,9 +417,9 @@ footer {
   nav ul { flex-direction: column; }
 
   main section h1 {
-    font-size: 2.5em;
-    margin-top: 192px;
-    margin-bottom: -40px;
+    font-size: 2em;
+    margin-top: -11px;
+        margin-bottom: 95px;
   }
 
   header {
@@ -408,6 +435,7 @@ footer {
 
   .lorem {
     padding: 2rem;
+    FONT-SIZE: 14PX;
   }
 
   .principal {
@@ -502,6 +530,10 @@ header h1 {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: -32PX;
+}
+
+main hr {
+  DISPLAY: NONE;
 }
 
 main section h1 {
