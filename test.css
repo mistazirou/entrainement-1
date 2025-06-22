@@ -539,14 +539,16 @@ main hr {
 main section h1 {
   font-size: 1.5em;
   margin-top: 114px;
-  margin-bottom: -27px;
+  margin-bottom: -140px;
+
 }
 
 .lorem {
   font-size: 9px;
-  padding: 2rem;
+  padding: 1rem;
   width: 100%;
-  margin-top: 12px;
+  margin-top: 155px;
+  margin-bottom: -49px;
   background-color: #d563d5;
 }
 
@@ -571,4 +573,12 @@ main hr {
 .about {
   margin-top: 80px;
 }
+
+.about h2 {
+  font-size: 1.5rem;
+  margin-top: 18px;
+  margin-bottom: 4rem;
+  color: #a254ad;
+}
+
 }
