@@ -466,7 +466,6 @@ header h1 {
   padding: 0.5rem 0rem;
   font-size: 2.8rem;
   text-align: center;
-  margin-top: 30px;
   margin-bottom: -32PX;
 }
 
@@ -573,6 +572,15 @@ main hr {
 
 .about {
   margin-top: 80px;
+}
+
+header h1 {
+  margin: 0 auto;
+  padding: 0.5rem 0rem;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -32PX;
 }
 
 .about h2 {
